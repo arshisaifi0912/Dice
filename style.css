@@ -1,0 +1,38 @@
+#container{
+    font-family:  Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    margin: 10px;
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px rgb(94, 92, 92)
+   
+
+}
+input{
+    box-shadow: 5px 5px 15px black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+}
+button{
+    box-shadow: 6px 6px 15px black;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin: 5px ;
+    padding: 2px 14px;
+    font-size: 1.5rem;
+    background-color: rgb(121, 121, 230)
+}
+button:hover{
+    background-color: blue;
+}
+button:active{
+    background-color: aqua;
+}
+#num1{
+    font-size: 2rem;
+}
