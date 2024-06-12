@@ -9,7 +9,7 @@ function room(){
     for(let i = 0; i < input; i++){
         const value = Math.floor(Math.random() * 6) + 1;
         values.push(value);
-        images.push(`<img src="${value}.jpg" alt="Dice ${value}">`);
+        images.push(`<img src="${value}.png" alt="Dice ${value}">`);
     }
 
     num1.textContent = `Dice: ${values.join(',')}`;
